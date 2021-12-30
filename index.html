@@ -11,12 +11,13 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Nunito:wght@200;300;400&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
   <header>
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navigation-wrap">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/333.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +56,7 @@
       <div class="row">
         <div class="col-md-6">
           <h1>Title Here</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Vivamus consectetur lacinia odio vitae vestibulum vestibulum. </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br /> Vivamus consectetur lacinia odio vitae dolor vestibulum vestibulum. </p>
           <div class="reeowicon"><i class="fas fa-arrow-down"></i></div>
           <a href="#" class="btn btn-register">register now</a>
         </div>
@@ -68,7 +69,7 @@
       <div class="row">
         <div class="tour text-center">
           <h1>dance tour</h1>
-          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus <br /> consectetur lacinia odio vitae vestibulum vestibulum.</p>
+          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Vivamus consectetur lacinia odio vitae vestibulum vestibulum.</p>
         </div>
         <div class="col-md-4">
           <div class="picture text-center">
@@ -82,7 +83,7 @@
               </div>
             </div>
             <h1>america</h1>
-            <p>Lorem ipsum dolor sit amet, consec <br /> tetur amet adipiscing elit.</p>
+            <p>Lorem ipsum dolor sit amet, <br /> consec  tetur amet adipiscing elit.</p>
           </div>
         </div>
         <div class="col-md-4">
@@ -129,7 +130,7 @@
         <div class="col-md-4">
           <div class="pricingtow text-center">
             <div class="awards">
-              <img src="images/777.png" class="pt-5 pb-4" alt="">
+              <i class="fas fa-award"></i>
               <h1>america</h1>
               <p>Lorem ipsum dolor sit amet, consec <br /> tetur dolor adipiscing elit.</p>
               <p class="tow m-auto">$150.00</p>
@@ -139,7 +140,7 @@
         <div class="col-md-4">
           <div class="pricingtow text-center">
             <div class="awards">
-              <img src="images/777.png" class="pt-5 pb-4" alt="">
+              <i class="fas fa-award"></i>
               <h1>Professional</h1>
               <p>Lorem ipsum dolor sit amet, consec <br /> tetur dolor adipiscing elit.</p>
               <p class="tow m-auto">$200.00</p>
@@ -149,7 +150,7 @@
         <div class="col-md-4">
           <div class="pricingtow text-center">
             <div class="awards">
-              <img src="images/777.png" class="pt-5 pb-4" alt="">
+              <i class="fas fa-award"></i>
               <h1>Ultimate</h1>
               <p>Lorem ipsum dolor sit amet, consec <br /> tetur dolor adipiscing elit.</p>
               <p class="tow m-auto">$250.00</p>
@@ -163,32 +164,44 @@
   <section class="perfrom">
     <div class="container">
       <div class="row">
-        <div class="col-md-8 m-auto">
-          <div class="row pb-5">
-            <div class="col-md-12 px-0 d-flex justify-content-between big-image">
-              <div class="chobi me-5 d-flex justify-content-center align-content-center">
-                <img src="images/888.png" class="w-100" alt="">
-              </div>
-              <div class="image-content m-auto me-5">
-                <h1>AMAZING DANCE</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Vivamus consectetur lacinia odio vitae vestibulum vestibulum. dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, atque. </p>
-                <a href="#" class="btn btn-readmore">read more</a>
+        <div class="col-md-9 col-12 m-auto">
+          <div class="row pb-4">
+            <div class="col-md-12 px-0 big-image">
+              <div class="row">
+                <div class="col-12 col-sm-4">
+                  <div class="chobi1 text-start">
+                    <img src="images/888.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+                <div class="col-12 col-sm-8">
+                  <div class="image-content1">
+                    <h1>AMAZING DANCE</h1>
+                    <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Vivamus consectetur lacinia odio vitae vestibulum vestibulum. dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, atque. </p>
+                    <a href="" class="btn btn-readmore">read more</a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>      
         </div>
       </div>
       <div class="row">
-        <div class="col-md-8 m-auto">
-          <div class="row pt-5">
-            <div class="col-md-12 px-0 d-flex justify-content-between big-image">
-              <div class="image-content m-auto ms-5">
-                <h1>Best dance</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br /> Vivamus consectetur lacinia odio vitae vestibulum vestibulum. dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, atque. </p>
-                <a href="#" class="btn btn-readmore">read more</a>
-              </div>
-              <div class="chobi ms-5 d-flex justify-content-center align-content-center">
-                <img src="images/999.png" class="img-fluid" alt="">
+        <div class="col-md-9 col-12 m-auto">
+          <div class="row pt-4">
+            <div class="col-md-12 px-0 big-image">
+              <div class="row">
+                <div class="col-12 col-sm-8">
+                  <div class="image-content2">
+                    <h1>Best dance</h1>
+                    <p>Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Vivamus consect etur lacinia odio vitae vestibulum vestibulum. dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, atque. </p>
+                    <a href="" class="btn btn-readmore">read more</a>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4">
+                  <div class="chobi2 text-end">
+                    <img src="images/999.png" class="" alt="">
+                  </div>
+                </div>
               </div>
             </div>
           </div>

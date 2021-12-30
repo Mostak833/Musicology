@@ -8,7 +8,7 @@ font-family: 'Oswald', sans-serif;*/
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 header {
   background-color: #303030;
-  border: 3px solid #e85709;
+  border-top: 3px solid #e85709;
 } 
 span i{
   color: #fff;
@@ -17,7 +17,7 @@ span i{
   color: #fff;
   border-color: transparent;
 }
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   color: #fff;
   font-size: 20px;
   font-weight: 400;
@@ -27,7 +27,7 @@ span i{
   align-items: center;
   font-family: 'Oswald', sans-serif;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-nav .nav-link:hover {
   color: #e85709;
 }
 .btn-outline-success {
@@ -79,7 +79,7 @@ span i{
   padding-bottom: 123px;
   font-family: "Montserrat", sans-serif;
 }
-.reeowicon {
+.reeowicon i {
   position: absolute;
   color: #fff;
   top: 72%;
@@ -111,9 +111,9 @@ span i{
 }
 .btn-register:hover {
   transition: 0.1s ease-in-out;
-  box-shadow: 0px 0px 10px 10px #e85709;
+  box-shadow: 0px 0px 5px 5px #e85709;
   color: #fff;
-  border: 2px solid #303030;
+  border: 2px solid #ffffff;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .dance {
@@ -279,11 +279,15 @@ span i{
   border-radius: 10px;
   margin: auto;
   padding-bottom: 50px;
+  transition: 0.2s ease-in-out;
 }
 .awards:hover {
-  transition: 0.2s ease-in-out;
-  box-shadow: 0px 0px 0px 10px #e85709;
+  transform: scaleY(1.02);
+}
+.awards i {
+  font-size: 120px;
   color: #fff;
+  padding: 40px 0px;
 }
 .awards .tow {
   padding: 16px 30px;
@@ -304,14 +308,18 @@ span i{
 .big-image {
   background-color: #3030304b;
 }
-.chobi:hover {
-  transition: 0.3s ease-in-out;
-  box-shadow: 0px 0px 20px 10px #3030304b;
+.chobi1 img,
+.chobi2 img {
+  width: 90%;
 }
-.image-content {
-  padding: px 0px;
+.image-content1 {
+  padding: 50px 0px 0px;
 }
-.image-content h1 {
+.image-content2 {
+  padding: 50px 0px 0px 55px;
+}
+.image-content1 h1,
+.image-content2 h1 {
   font-size: 30px;
   font-weight: 600;
   padding-bottom: 20px;
@@ -319,7 +327,8 @@ span i{
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
 }
-.image-content p {
+.image-content1 p,
+.image-content2 p {
   font-size: 16;
   color: #fff;
   font-weight: 400;
@@ -332,10 +341,9 @@ span i{
   font-weight: 400;
   color: #fff;
   text-transform: uppercase;
-  width: 40%;
   display: flex;
   justify-content: center;
-  width: 50%;
+  width: 30%;
 
   font-family: "Oswald", sans-serif;
 }
@@ -374,6 +382,7 @@ span i{
   border: 10px solid #e85709;
   border-radius: 10px;
   padding: 100px 0px;
+  transition: 0.3s all ease-in-out;
 }
 .number h1 {
   font-size: 70px;
@@ -390,34 +399,20 @@ span i{
   font-family: "Montserrat", sans-serif;
 }
 .number:hover {
-  transition: 0.2s ease-in-out;
   box-shadow: 0px 0px 10px 10px #e85709;
   color: #fff;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .herbert {
-  background-image: url(../images/1111.png);
+  background-image: linear-gradient(rgba(255, 65, 40, 0.377), rgb(255, 65, 40, 0.342)), url(../images/1111.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-
-  z-index: -1;
-}
-.herbert::before {
-  content: "";
-  position: absolute;
-  background-color: #ff5900;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  opacity: 0.5;
-  z-index: -1;
 }
 .simon {
-  padding-top: 350px;
-  padding-bottom: 200px;
+  padding-top: 500px;
+  padding-bottom: 100px;
 }
 .simon h1 {
   font-size: 60px;
@@ -427,7 +422,7 @@ span i{
   font-family: "Oswald", sans-serif;
 }
 .simon p {
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   font-size: 30px;
   font-weight: 500;
   color: #fff;
@@ -474,6 +469,7 @@ input.btn-input {
   text-transform: uppercase;
   background-color: #fff;
   color: #000;
+  transition: 0.3s all ease-in-out;
 }
 input.btn-input:hover {
   background-color: #303030;
@@ -508,8 +504,6 @@ input.btn-input:hover {
   color: #fff;
   transition: 0.2s ease-in-out;
   background-color: #ff5900;
-  width: 55px;
-  height: 55px;
 }
 .social ul {
   display: flex;
@@ -557,5 +551,9 @@ input.btn-input:hover {
   text-transform: capitalize;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+}
+.end-part ul li a:hover {
+  color: #ff5900;
+  text-decoration: underline;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */

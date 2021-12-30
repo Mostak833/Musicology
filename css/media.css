@@ -1,0 +1,71 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1440px to higher resolution desktops
+*/
+
+@media (min-width: 1440px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 1025px to 1199px
+*/
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 992px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 991px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 576px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 575px
+*/
+
+@media (min-width: 481px) and (max-width: 575px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 425px to 480px
+*/
+
+@media (min-width: 425px) and (max-width: 480px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 0px to 424px
+*/
+
+@media (min-width: 0px) and (max-width: 424px) {
+  /* CSS */
+}
