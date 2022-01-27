@@ -4,18 +4,33 @@ font-family: 'Oswald', sans-serif;*/
 * {
   margin: 0;
   padding: 0px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p,
+i {
+  opacity: 0.9;
 }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 header {
   background-color: #303030;
-  border-top: 3px solid #e85709;
-} 
-span i{
+}
+span i {
   color: #fff;
+}
+.navbar-brand img {
+  width: 100%;
+  margin: auto;
 }
 .navbar-light .navbar-toggler {
   color: #fff;
   border-color: transparent;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.15rem;
+  color: #ff5900;
 }
 .navbar-nav .nav-link {
   color: #fff;
@@ -23,9 +38,10 @@ span i{
   font-weight: 400;
   text-transform: uppercase;
   padding: 0px 16px;
+  margin-bottom: 7px;
   text-align: center;
   align-items: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 .navbar-nav .nav-link:hover {
   color: #e85709;
@@ -48,9 +64,9 @@ span i{
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out;
-  background-color 0.15s ease-in-out;
-  border-color 0.15s ease-in-out;
-  box-shadow 0.15s ease-in-out;
+  background-color: 0.15s ease-in-out;
+  border-color: 0.15s ease-in-out;
+  box-shadow: 0.15s ease-in-out;
 }
 .btn-outline-success:hover {
   background-color: #e85709;
@@ -63,20 +79,20 @@ span i{
   background-size: cover;
   background-position: center;
   position: relative;
-  min-height: 87vh;
+  min-height: 88vh;
 }
 .banner h1 {
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 500;
   color: #fff;
-  padding-top: 200px;
+  padding: 200px 0px 0px 40px;
   font-family: "Oswald", sans-serif;
 }
 .banner p {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  padding-bottom: 123px;
+  padding: 0px 0px 20px 40px;
   font-family: "Montserrat", sans-serif;
 }
 .reeowicon i {
@@ -96,57 +112,74 @@ span i{
   }
 }
 .btn-register {
-  padding: 10px 50px;
+  padding: 6px 30px;
   font-size: 28px;
   font-weight: 400;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
   background-color: #e85709;
-  border: 1px solid #e85709;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  margin: 0px 0px 0px 40px;
   border: 2px solid;
   font-family: "Oswald", sans-serif;
+  transition: 0.3s all ease-in-out;
 }
 .btn-register:hover {
-  transition: 0.1s ease-in-out;
   box-shadow: 0px 0px 5px 5px #e85709;
   color: #fff;
   border: 2px solid #ffffff;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .dance {
+  background-image: url(../images/backimage1.png);
   background-color: #e85709;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: auto;
+  padding: 70px 0px 70px 0px;
+  opacity: 1;
 }
-.tour {
-}
-.tour h1 {
-  font-size: 64px;
-  font-weight: 600;
+.tour h1,
+.pricingone h1,
+.Our-Statistics h1,
+.subscription h1 {
+  font-size: 60px;
+  font-weight: 500;
   color: #fff;
   text-transform: uppercase;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   font-family: "Oswald", sans-serif;
 }
-.tour p {
+.tour p,
+.picture p,
+.pricingone p,
+.pricingtow p,
+.for-count p,
+.image-content1 p,
+.image-content2 p,
+.Our-Statistics p {
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  padding-bottom: 25px;
+  padding: 0px 10px 15px 10px;
   font-family: "Montserrat", sans-serif;
 }
 .picture {
-  width: 78.5%;
+  width: 100%;
   background-color: #303030;
-  padding-bottom: px;
-  margin: auto;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
+  border-radius: 10px;
+  margin: 30px 0px 0px 0px;
+  padding: 5px;
 }
-.picture h1 {
+.picture img {
+  border-radius: 10px;
+}
+.picture h1,
+.image-content1 h1,
+.image-content2 h1,
+.pricingtow h1 {
   font-size: 28px;
   font-weight: 500;
   color: #fff;
@@ -155,15 +188,9 @@ span i{
   padding-bottom: 10px;
   font-family: "Oswald", sans-serif;
 }
-.picture p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-}
 .font {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 9999;
@@ -176,11 +203,11 @@ span i{
   justify-content: space-between;
   padding: 0;
   margin: 0;
-  width: 110px;
+  width: 85px;
 }
 .font ul li {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #ffff;
   border-radius: 10px;
   display: flex;
@@ -212,9 +239,10 @@ span i{
   width: 0%;
   top: 0%;
   right: 0%;
-  background-color: #0ebbff;
+  background-color: #28a6fa;
   transition: 0.4s ease-in-out;
   opacity: 0;
+  border-radius: 0px 10px 10px 0px;
 }
 .imghover:hover::after {
   opacity: 0.5;
@@ -227,62 +255,83 @@ span i{
   width: 0%;
   left: 0%;
   top: 0%;
-  background-color: #0ebbff;
+  background-color: #28a6fa;
   transition: 0.4s ease-in-out;
   opacity: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.digit {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background\ 2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 30px 0px 60px 0px;
+}
+.for-count {
+  text-align: center;
+  padding: 15px 0 5px 0px;
+  margin: 30px 0px 0px 0px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  transition: 0.4s all ease-in-out;
+}
+.for-count:hover {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+.for-count:hover.for-count span {
+  width: 30%;
+}
+.dance-img {
+  padding: 20px 0px 20px 0px;
+}
+.for-count h4 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #121212;
+}
+.for-count span {
+  display: block;
+  width: 20%;
+  height: 3px;
+  background-color: #ff5900;
+  margin: auto;
+  border-radius: 100px;
+  transition: 0.3s all ease-in-out;
+  margin-bottom: 20px;
+}
+.for-count p {
+  font-size: 15px;
+  color: #000 !important;
+  padding: 0px 10px 0px 10px;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .pricing {
   background-color: #303030;
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-.pricingtow {
-  padding-bottom: 50px;
-}
-.pricingone h1 {
-  font-size: 50px;
-  font-weight: 500;
-  color: #fff;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  font-family: "Oswald", sans-serif;
-}
-.pricingone p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-  line-height: 20px;
-  padding-bottom: 35px;
-  font-family: "Montserrat", sans-serif;
+  padding: 70px 0px 70px 0px;
 }
 .pricingtow h1 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #fff;
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  font-family: "Oswald", sans-serif;
+  padding-top: 0px;
 }
 .pricingtow p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-  line-height: 20px;
-  padding-bottom: 35px;
-  font-family: "Montserrat", sans-serif;
+  padding: 0px 10px 0px 10px;
 }
 .awards {
-  width: 90%;
+  width: 100%;
   background-color: #e85709;
   border: 1px solid #e85709;
   border-radius: 10px;
-  margin: auto;
-  padding-bottom: 50px;
-  transition: 0.2s ease-in-out;
+  margin: 30px 0px 0px 0px;
+  padding: 0px 10px 20px 10px;
+  transition: 0.3s ease-in-out;
 }
 .awards:hover {
-  transform: scaleY(1.02);
+  -webkit-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .awards i {
   font-size: 120px;
@@ -290,52 +339,46 @@ span i{
   padding: 40px 0px;
 }
 .awards .tow {
-  padding: 16px 30px;
-  width: 60%;
+  padding: 4px 0px;
+  width: 65%;
   background-color: #303030;
   border: 1px solid #303030;
   border-radius: 5px;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Oswald", sans-serif;
   font-weight: 400;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .perfrom {
+  background-image: url(../images/backimage3png.png);
   background-color: #e85709;
-  padding: 80px 0px;
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+  padding: 50px 0px 40px;
 }
 .big-image {
-  background-color: #3030304b;
+  border-bottom: 2px solid transparent;
 }
 .chobi1 img,
 .chobi2 img {
-  width: 90%;
+  width: 100%;
 }
-.image-content1 {
-  padding: 50px 40px 0px 0px;
-}
+.image-content1,
 .image-content2 {
-  padding: 50px 0px 0px 55px;
+  padding: 50px 40px 0px 0px;
 }
 .image-content1 h1,
 .image-content2 h1 {
-  font-size: 30px;
-  font-weight: 600;
   padding-bottom: 20px;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
 }
 .image-content1 p,
 .image-content2 p {
-  font-size: 16;
-  color: #fff;
-  font-weight: 400;
-  padding-bottom: 15px;
-  font-family: "Montserrat", sans-serif;
+  padding: 0px 0px 15px 0px;
 }
-.btn-readmore {
+.btn-readmore1,
+.btn-readmore2 {
   background-color: #303030;
   font-size: 22px;
   font-weight: 400;
@@ -344,10 +387,14 @@ span i{
   display: flex;
   justify-content: center;
   width: 30%;
-
   font-family: "Oswald", sans-serif;
 }
-.btn-readmore:hover {
+.btn-readmore1:hover {
+  transition: 0.2s ease-in-out;
+  box-shadow: 0px 0px 10px 10px #3030305d;
+  color: #fff;
+}
+.btn-readmore2:hover {
   transition: 0.2s ease-in-out;
   box-shadow: 0px 0px 10px 10px #3030305d;
   color: #fff;
@@ -358,30 +405,17 @@ span i{
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .Statistics {
   background-color: #303030;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding: 70px 0px 80px 0px;
 }
-.Our-Statistics h1 {
-  font-size: 40px;
-  font-weight: 500;
-  color: #fff;
-  text-transform: uppercase;
-  padding-bottom: 25px;
-  font-family: "Oswald", sans-serif;
-}
-.Our-Statistics p {
-  font-size: 16px;
-  font-weight: 400;
-  color: #fff;
-  padding-bottom: 60px;
-  font-family: "Montserrat", sans-serif;
+.num-three {
+  margin: 30px 0px 0px 0px;
 }
 .number {
-  margin-bottom: 50px !important;
-  width: 70%;
+  width: 80%;
   border: 10px solid #e85709;
   border-radius: 10px;
-  padding: 100px 0px;
+  margin: auto;
+  padding: 60px 0px 50px 0px;
   transition: 0.3s all ease-in-out;
 }
 .number h1 {
@@ -404,46 +438,65 @@ span i{
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .herbert {
-  background-image: linear-gradient(rgba(255, 65, 40, 0.377), rgb(255, 65, 40, 0.342)), url(../images/1111.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/1111.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
-}
-.simon {
-  padding-top: 500px;
-  padding-bottom: 100px;
-}
-.simon h1 {
-  font-size: 60px;
-  font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
+  background-attachment: fixed;
+  min-height: 85vh;
+  padding: 100px 0px 0px 0px;
 }
 .simon p {
-  padding-bottom: 50px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 500;
   color: #fff;
   text-transform: capitalize;
   font-family: "Nunito", sans-serif;
+  margin: 0px 0px 20px 30px;
+}
+.simon p span i {
+  color: #fff;
+  font-size: 100px;
+}
+.herbert h1 {
+  color: transparent;
+  font-size: 60px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  display: inline-block;
+  position: relative;
+  margin: 0px 20px 0px 25px;
+  padding: 0px 10px 0px 0px;
+}
+.herbert h1::before {
+  position: absolute;
+  content: attr(data-text);
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  height: 100%;
+  color: #fff;
+  overflow: hidden;
+  border-right: 5px solid #ff5900;
+  animation: animation1 5s linear infinite;
+}
+@keyframes animation1 {
+  0%,
+  10%,
+  90% {
+    width: 0%;
+  }
+  80%,
+  90% {
+    width: 100%;
+  }
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 .subscribe {
-  background-color: #ff5900;
+  background-color: #e85709;
   opacity: 0.6;
-}
-.subscription {
-}
-.subscription h1 {
-  padding-top: 70px;
-  font-size: 60px;
-  font-weight: 600;
-  color: #fff;
-  text-transform: uppercase;
-  padding-bottom: 5px;
-  font-family: "Oswald", sans-serif;
+  padding: 70px 0px 70px 0px;
 }
 .subscription p {
   padding-bottom: 50px;
@@ -496,7 +549,7 @@ input.btn-input:hover {
   color: #fff;
   line-height: 25px;
   font-weight: 400;
-  padding-bottom: 26px;
+  padding-bottom: 10px;
   text-transform: capitalize;
   font-family: "Montserrat", sans-serif;
 }
@@ -508,7 +561,7 @@ input.btn-input:hover {
 .social ul {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 45%;
   padding: 0;
   margin: 0;
 }
@@ -520,8 +573,8 @@ input.btn-input:hover {
 }
 .social ul li {
   list-style: none;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border: 2px solid #fff;
   display: flex;
   justify-content: center;
@@ -531,7 +584,7 @@ input.btn-input:hover {
 }
 .social ul li a {
   color: #000;
-  font-size: 30px;
+  font-size: 24px;
 }
 .end-part {
   display: flex;

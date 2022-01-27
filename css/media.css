@@ -13,59 +13,1773 @@
 */
 
 @media (min-width: 1025px) and (max-width: 1199px) {
-  /* CSS */
+  .navbar-brand img {
+    width: 75%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 0px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 50px;
+    padding: 175px 0px 20px 15px;
+  }
+  .banner p {
+    font-size: 17px;
+    padding: 0px 20px 0px 15px;
+  }
+  .btn-register {
+    padding: 8px 22px;
+    font-size: 16px;
+    margin: 15px 0px 0px 15px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 70px 0px 60px 0px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+  }
+  .picture {
+    width: 100%;
+    margin-bottom: -5px;
+    padding-bottom: 5px;
+  }
+  .picture p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .for-count {
+    margin: 25px 0px 0px 0px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+  }
+  .pricing {
+    padding: 55px 0px 40px 0px;
+  }
+  .awards {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow {
+    padding-bottom: 0px;
+  }
+  .pricingtow h1 {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .pricingtow p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .awards .tow {
+    font-size: 20px;
+    padding: 4px 0px;
+  }
+
+  .perfrom {
+    padding: 40px 0px 50px;
+  }
+  .big-image {
+    border-bottom: transparent;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 118%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .chobi2 img {
+    padding-top: 0px;
+    margin-top: -70px;
+  }
+  .image-content1 {
+    padding: 45px 15px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 10px 0px 0px 0px;
+  }
+  .image-content2 h1 {
+    text-align: end;
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    text-align: end;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    text-align: end;
+    margin: 15px 0px 45px 251px;
+  }
+  .number {
+    width: 100%;
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 36px;
+  }
+  .number p {
+    font-size: 14px;
+  }
+  .herbert {
+    padding: 80px 0px 70px 0px;
+  }
+  .herbert h1 {
+    font-size: 38px;
+    margin: 0px 0px 0px 15px;
+    margin-left: 5px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px 0px 30px 15px;
+    margin-left: -10px;
+  }
+  .subscription h1 {
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 60%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
   ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 992px to 1024px
+  ##Screen = B/w 992px to 1024.98px
 */
 
-@media (min-width: 992px) and (max-width: 1024px) and (orientation: landscape) {
-  /* CSS */
+@media (min-width: 992px) and (max-width: 1024.98px) and (orientation: landscape) {
+  .navbar-brand img {
+    width: 75%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 0px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 50px;
+    padding: 175px 0px 20px 15px;
+  }
+  .banner p {
+    font-size: 17px;
+    padding: 0px 20px 0px 15px;
+  }
+  .btn-register {
+    padding: 8px 22px;
+    font-size: 16px;
+    margin: 15px 0px 0px 15px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 70px 0px 60px 0px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+  }
+  .picture {
+    width: 100%;
+    margin-bottom: -5px;
+    padding-bottom: 5px;
+  }
+  .picture p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .for-count {
+    margin: 25px 0px 0px 0px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+  }
+  .pricing {
+    padding: 55px 0px 40px 0px;
+  }
+  .awards {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow {
+    padding-bottom: 0px;
+  }
+  .pricingtow h1 {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .pricingtow p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .awards .tow {
+    font-size: 20px;
+    padding: 4px 0px;
+  }
+
+  .perfrom {
+    padding: 40px 0px 50px;
+  }
+  .big-image {
+    border-bottom: transparent;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 118%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .chobi2 img {
+    padding-top: 0px;
+    margin-top: -70px;
+  }
+  .image-content1 {
+    padding: 45px 15px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 10px 0px 0px 0px;
+  }
+  .image-content2 h1 {
+    text-align: end;
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    text-align: end;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    text-align: end;
+    margin: 15px 0px 45px 251px;
+  }
+  .number {
+    width: 100%;
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 36px;
+  }
+  .number p {
+    font-size: 14px;
+  }
+  .herbert {
+    padding: 80px 0px 70px 0px;
+  }
+  .herbert h1 {
+    font-size: 38px;
+    margin: 0px 0px 0px 15px;
+    margin-left: 5px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px 0px 30px 15px;
+    margin-left: -10px;
+  }
+  .subscription h1 {
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 60%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
   ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 991px
+  ##Screen = B/w 768px to 991.98px
 */
 
-@media (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
-  /* CSS */
+@media (min-width: 768px) and (max-width: 991.98px) and (orientation: landscape) {
+  .navbar-brand img {
+    width: 75%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 175px 0px 20px 15px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 20px 0px 15px;
+  }
+  .btn-register {
+    padding: 8px 22px;
+    font-size: 14px;
+    margin: 15px 0px 0px 15px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 20px 0px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 40px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+  }
+  .picture {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .picture p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .for-count {
+    margin: 25px 0px 0px 0px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+  }
+  .pricing {
+    padding: 55px 0px 40px 0px;
+  }
+  .awards {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow {
+    padding-bottom: 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .pricingtow p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .awards .tow {
+    font-size: 20px;
+    padding: 4px 0px;
+  }
+
+  .perfrom {
+    padding: 40px 0px 20px;
+  }
+  .big-image {
+    border-bottom: transparent;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 118%;
+    margin: auto;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+  }
+  .chobi2 img {
+    padding-top: 0px;
+  }
+  .image-content1 {
+    padding: 45px 15px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 10px 0px 0px 0px;
+  }
+  .image-content2 h1 {
+    text-align: end;
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    text-align: end;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    text-align: end;
+    margin: 15px 0px 45px 184px;
+  }
+  .number {
+    width: 100%;
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 36px;
+  }
+  .number p {
+    font-size: 14px;
+  }
+  .herbert {
+    padding: 80px 0px 70px 0px;
+  }
+  .herbert h1 {
+    font-size: 38px;
+    margin: 0px 0px 0px 15px;
+    margin-left: -50px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px 70px 30px 15px;
+    margin-left: -65px;
+  }
+  .subscription h1 {
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 80%;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 576px to 767px
+  ##Screen = B/w 576px to 767.98px
 */
 
-@media (min-width: 576px) and (max-width: 767px) {
-  /* CSS */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-brand img {
+    width: 70%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 180px 0px 20px 15px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 125px 0px 15px;
+  }
+  .btn-register {
+    padding: 8px 22px;
+    font-size: 14px;
+    margin: 15px 0px 0px 15px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 20px 0px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+  }
+  .picture {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .picture p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .for-count {
+    margin: 25px 0px 0px 0px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 20px 0px 20px;
+  }
+  .pricing {
+    padding: 55px 0px 40px 0px;
+  }
+  .awards {
+    width: 100%;
+    margin-bottom: -5px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow {
+    padding-bottom: 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .pricingtow p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .awards .tow {
+    font-size: 20px;
+    padding: 4px 0px;
+  }
+
+  .perfrom {
+    padding: 40px 0px 20px;
+  }
+  .big-image {
+    border-bottom: transparent;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 118%;
+    margin: auto;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+  }
+  .chobi2 img {
+    padding-top: 0px;
+  }
+  .image-content1 {
+    padding: 45px 15px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 10px 0px 0px 0px;
+  }
+  .image-content2 h1 {
+    text-align: end;
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    text-align: end;
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    text-align: end;
+    margin: 15px 0px 45px 184px;
+  }
+  .number {
+    width: 100%;
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 36px;
+  }
+  .number p {
+    font-size: 14px;
+  }
+  .herbert {
+    padding: 60px 0px 70px 0px;
+  }
+  .herbert h1 {
+    font-size: 38px;
+    margin: 0px 0px 0px 15px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+  }
+  .subscription h1 {
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 575px
+  ##Screen = B/w 481px to 575.98px
 */
 
-@media (min-width: 481px) and (max-width: 575px) {
-  /* CSS */
+@media (min-width: 481px) and (max-width: 575.98px) {
+  .navbar-brand img {
+    width: 67%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 250px 0px 20px 15px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 125px 0px 15px;
+  }
+  .btn-register {
+    padding: 8px 22px;
+    font-size: 14px;
+    margin: 15px 0px 0px 15px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 20px 0px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+  }
+  .picture {
+    width: 65%;
+    margin: 30px 98px 0px 98px;
+  }
+  .picture p {
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+  }
+  .for-count {
+    margin: 50px 95px 0px 95px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 50px 0px 50px;
+  }
+  .pricing {
+    padding: 65px 0px 70px 0px;
+  }
+  .awards {
+    width: 65%;
+    margin: 30px 98px 0px 98px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow p {
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+  }
+  .awards .tow {
+    padding: 4px 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .perfrom {
+    padding: 65px 0px 65px 0px;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  .image-content1 {
+    padding: 45px 16px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 45px 16px 0px 0px;
+  }
+  .image-content2 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .number {
+    width: 60%;
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 45px;
+  }
+  .herbert {
+    padding: 60px 0px 70px 0px;
+  }
+  .herbert h1 {
+    font-size: 34px;
+    margin: 0px 0px 0px 15px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px 15px 0px 15px;
+  }
+  .subscription h1 {
+    padding: 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding: 0px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 45%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 425px to 480px
+  ##Screen = B/w 426px to 480.98px
 */
 
-@media (min-width: 425px) and (max-width: 480px) {
-  /* CSS */
+@media (min-width: 426px) and (max-width: 480.98px) {
+  .navbar-brand img {
+    width: 67%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 250px 0px 20px 10px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 0px 15px 10px;
+  }
+  .btn-register {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin: 0px 0px 0px 10px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 60px 0px;
+  }
+  .picture {
+    width: 80%;
+    margin: 30px 45px 0px 45px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .picture p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .for-count {
+    margin: 30px 45px 0px 45px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .pricing {
+    padding: 55px 0px 20px 0px;
+  }
+  .awards {
+    width: 80%;
+    margin: 30px 45px 0px 45px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .awards .tow {
+    padding: 4px 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .perfrom {
+    padding: 40px 0px 0px;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 45px 0px;
+  }
+  .image-content1 {
+    padding: 0px 16px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 45px 16px 0px 0px;
+  }
+  .image-content2 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .number {
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 45px;
+  }
+  .herbert {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .herbert h1 {
+    font-size: 34px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .subscribe {
+    background-color: #ff5900;
+    opacity: 0.6;
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription h1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 52%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 0px to 424px
+  ##Screen = B/w 376px to 425.98px
 */
 
-@media (min-width: 0px) and (max-width: 424px) {
-  /* CSS */
+@media (min-width: 376px) and (max-width: 425.98px) {
+  .navbar-brand img {
+    width: 67%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 250px 0px 20px 10px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 0px 15px 10px;
+  }
+  .btn-register {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin: 0px 0px 0px 10px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 60px 0px;
+  }
+  .picture {
+    width: 94%;
+    margin: 30px 11px 0px 11px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .picture p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .for-count {
+    margin: 30px 10px 0px 10px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .pricing {
+    padding: 55px 0px 20px 0px;
+  }
+  .awards {
+    width: 90%;
+    margin: 30px 20px 0px 20px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .awards .tow {
+    padding: 4px 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .perfrom {
+    padding: 40px 0px 0px;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 45px 0px;
+  }
+  .image-content1 {
+    padding: 0px 16px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 45px 16px 0px 0px;
+  }
+  .image-content2 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .number {
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 45px;
+  }
+  .herbert {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .herbert h1 {
+    font-size: 34px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .subscribe {
+    background-color: #ff5900;
+    opacity: 0.6;
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription h1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 321px to 375.98px
+*/
+
+@media (min-width: 321px) and (max-width: 375.98px) {
+  .navbar-brand img {
+    width: 67%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 200px 0px 20px 10px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 0px 0px 10px;
+  }
+  .btn-register {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin: 0px 0px 0px 10px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 60px 0px;
+  }
+  .picture {
+    width: 94%;
+    margin: 30px 0px 0px 11px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .picture p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .for-count {
+    margin: 30px 10px 0px 10px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .pricing {
+    padding: 55px 0px 20px 0px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .awards .tow {
+    padding: 4px 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .perfrom {
+    padding: 40px 0px 0px;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 45px 0px;
+  }
+  .image-content1 {
+    padding: 0px 16px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 45px 16px 0px 0px;
+  }
+  .image-content2 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .number {
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 45px;
+  }
+  .herbert {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .herbert h1 {
+    font-size: 34px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .subscribe {
+    background-color: #ff5900;
+    opacity: 0.6;
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription h1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 58%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 0px to 320px
+*/
+
+@media (min-width: 0px) and (max-width: 320.98px) {
+  .navbar-brand img {
+    width: 67%;
+    margin: auto;
+  }
+  .navbar-nav .togle-mar {
+    margin-top: 20px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding: 200px 0px 20px 10px;
+  }
+  .banner p {
+    font-size: 15px;
+    padding: 0px 0px 0px 10px;
+  }
+  .btn-register {
+    padding: 8px 18px;
+    font-size: 14px;
+    margin: 0px 0px 0px 10px;
+  }
+  .reeowicon i {
+    display: none;
+  }
+  .dance {
+    padding: 50px 0px 60px 0px;
+  }
+  .tour h1,
+  .pricingone h1,
+  .Our-Statistics h1,
+  .simon h1,
+  .subscription h1 {
+    font-size: 36px;
+    padding-bottom: 5px;
+  }
+  .tour p,
+  .pricingone p,
+  .pricingtow p,
+  .image-content1 p,
+  .Our-Statistics p {
+    font-size: 15px;
+    padding: 0px;
+  }
+  .picture p {
+    font-size: 18px;
+    padding: 0px 25px 0px 25px;
+  }
+  .for-count {
+    margin: 30px 10px 0px 10px;
+  }
+  .for-count p {
+    font-size: 16px;
+    padding: 0px 15px 0px 15px;
+  }
+  .pricing {
+    padding: 55px 0px 20px 0px;
+  }
+  .awards i {
+    font-size: 100px;
+    padding: 40px 0px 0px 0px;
+  }
+  .pricingtow p {
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+  }
+  .awards .tow {
+    padding: 4px 0px;
+  }
+  .pricingtow h1 {
+    padding-top: 25px;
+  }
+  .perfrom {
+    padding: 40px 0px 0px;
+  }
+  .chobi1 img,
+  .chobi2 img {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 45px 0px;
+  }
+  .image-content1 {
+    padding: 0px 16px 0px 0px;
+  }
+  .image-content1 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content1 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore1 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .image-content2 {
+    padding: 45px 16px 0px 0px;
+  }
+  .image-content2 h1 {
+    padding: 0px 0px 0px 15px;
+  }
+  .image-content2 p {
+    font-size: 15px;
+    padding: 15px 0px 0px 15px;
+  }
+  .btn-readmore2 {
+    font-size: 18px;
+    width: 45%;
+    margin: 15px 0px 45px 15px;
+  }
+  .number {
+    padding: 60px 0px 45px 0px;
+  }
+  .number h1 {
+    font-size: 45px;
+  }
+  .herbert {
+    padding-top: 0px;
+    padding-bottom: 50px;
+  }
+  .herbert h1 {
+    font-size: 34px;
+  }
+  .simon p {
+    font-size: 20px;
+    padding: 0px;
+  }
+  .subscribe {
+    background-color: #ff5900;
+    opacity: 0.6;
+    padding: 60px 0px 0px 0px;
+  }
+  .subscription h1 {
+    padding: 0px 0px 0px 0px;
+  }
+  .subscription p {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+  .inputone {
+    padding-bottom: 60px;
+  }
+  .inputone input {
+    margin-top: 10px;
+  }
+  .footer {
+    padding-top: 65px;
+  }
+  .footer p {
+    font-size: 15px;
+    padding-bottom: 0px;
+  }
+  .social ul {
+    width: 75%;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+  .social ul li {
+    width: 38px;
+    height: 38px;
+  }
+  .social ul li a {
+    font-size: 24px;
+  }
+  .footer h1 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .end-part ul li a {
+    font-size: 14px;
+  }
 }
