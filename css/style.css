@@ -391,12 +391,12 @@ span i {
 }
 .btn-readmore1:hover {
   transition: 0.2s ease-in-out;
-  box-shadow: 0px 0px 10px 10px #3030305d;
+  box-shadow: 0px 0px 5px 5px #3030305d;
   color: #fff;
 }
 .btn-readmore2:hover {
   transition: 0.2s ease-in-out;
-  box-shadow: 0px 0px 10px 10px #3030305d;
+  box-shadow: 0px 0px 5px 5px #3030305d;
   color: #fff;
 }
 .col-md-6 {
@@ -472,23 +472,20 @@ span i {
 .herbert h1::before {
   position: absolute;
   content: attr(data-text);
-  top: 0%;
-  left: 0%;
   width: 0%;
   height: 100%;
   color: #fff;
   overflow: hidden;
-  border-right: 5px solid #ff5900;
-  animation: animation1 5s linear infinite;
+  border-right: 4px solid #fff;
+  animation: animation1 5s infinite;
 }
 @keyframes animation1 {
   0%,
-  10%,
-  90% {
+  0% {
     width: 0%;
   }
-  80%,
-  90% {
+  40%,
+  50% {
     width: 100%;
   }
 }
